@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3838465207834d90be2c8e7aaee59250, type: 3}
+  m_Name: LevelDescription01
+  m_EditorClassIdentifier: 
+  Size: {x: 10, y: 10}
+  FloorPrefabs:
+  - {fileID: 5276256281525303411, guid: c88f27a601b7f6542bd602b27c5f78c4, type: 3}
+  - {fileID: 5276256281525303411, guid: 8365ce2eb08a4444da3029d4a00d1b5b, type: 3}
+  WallDescription:
+    TotalWallsCount: 20
+    WallPrefab: {fileID: 5276256281525303411, guid: 94a88e8850ec538468ea198aca5e9221,
+      type: 3}
+    MaxShowDelay: 1
+    MoveSpeed: 2
+  CreatureSpawnDescriptions:
+  - {fileID: 11400000, guid: df473231c8679084e8fb9fb6e0d41adb, type: 2}
+  - {fileID: 11400000, guid: 176f969440d665d44bd345dbbcf910be, type: 2}
+  BombSpawnDescriptions:
+  - {fileID: 11400000, guid: 5f79e8ad324142e488abf1e138dbc160, type: 2}
+  - {fileID: 11400000, guid: d9b1147c42b88fb4da1760ac51e8204c, type: 2}
+  GameDuration: 20

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e851cea5b2a4090a5601fd51685e421, type: 3}
+  m_Name: FrozenBombSpawnDescription
+  m_EditorClassIdentifier: 
+  StartDelay: 2
+  SpawnTimout: 10
+  Amount: 1
+  BombDescription: {fileID: 11400000, guid: b9f8a7e8e9061614aad1ea5bc47033eb, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dba6aca6a7a44ef96e8d543a171484f, type: 3}
+  m_Name: GameDescription
+  m_EditorClassIdentifier: 
+  UiPrefab: {fileID: 8483526646415127593, guid: 3a792137fbbdc7f48aea4c635a520bf4,
+    type: 3}
+  DialogueWindowPrefab: {fileID: 7224873592289747669, guid: 811598982031cbe4e991305999229a9c,
+    type: 3}
+  DamageViewPrefab: {fileID: 5155317263859498335, guid: 3ae26916d3047dc459a0989561be72fd,
+    type: 3}
+  GameLoadingMessage: Press OK to start
+  FinishGameMessage: Time is out
+  Levels:
+  - {fileID: 11400000, guid: 95c4ca70f28a5124b80a48de7f066d6b, type: 2}
+  - {fileID: 11400000, guid: dc2d7090a070e9a45a1c63a36592fd29, type: 2}

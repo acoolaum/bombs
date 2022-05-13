@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d283e5e764b84c8ea5e913ad5635d7b5, type: 3}
+  m_Name: FrozenBombDescription
+  m_EditorClassIdentifier: 
+  Speed: 3
+  Explosion:
+    ExplosionType: 1
+    Radius: 30
+    DamageDescription:
+    - TargetProperty: 1
+      BaseDamage: 50
+      MaxDamage: 100
+      Duration: 50
+  Prefab: {fileID: 6131765324274430631, guid: 395892ab46d0a4045bbdb6df4ede1836, type: 3}
+  ExplosionPrefab: {fileID: 6131765324274430631, guid: 5359d0b5ed0dc054d85963f3c72078bd,
+    type: 3}
